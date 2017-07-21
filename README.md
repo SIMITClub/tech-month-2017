@@ -4,6 +4,7 @@
 
 1) 
 `<!DOCTYPE html>`
+
 2) 
 ```html
 <!DOCTYPE html>
