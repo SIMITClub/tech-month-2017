@@ -40,3 +40,44 @@
   </body>
 </html>
 ```
+
+5)
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	<h1>Tech Month 2017</h1>
+    <section>
+    <p>Tech Month 2017 is presented by SIM IT Club. </p>
+    </section>
+    <section>
+    <p>This month we will be conducting workshops such as Website Development, Deployment.In additon, we have python workshop. Python is a server side lightweighed code. We have seminars, SIMGO, and much more coming up</p>
+    </section>
+  </body>
+</html>
+```
+
+6)
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	<h1>Tech Month 2017</h1>
+    <section>
+    <p>Tech Month 2017 is presented by SIM IT Club. </p>
+    </section>
+    <section>
+    <h2>Agenda</h2>
+    <li>HTML Workshop- Week one</li>
+    <li>CSS Workshop- Week one</li>
+	<li>Javascript Workshop- Week one</li>
+    <li>Python Workshop - Week three</li>
+    <li>Shell Workshop - Week three</li>
+    </section>
+  </body>
+</html>
+```
