@@ -81,3 +81,30 @@
   </body>
 </html>
 ```
+
+7)
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	<h1>Tech Month 2017</h1>
+    <section>
+    <p>Tech Month 2017 is presented by SIM IT Club. </p>
+    </section>
+    <section>
+    <h2>Agenda</h2>
+    <ul>
+    <li>HTML Workshop</li>
+    <li>CSS Workshop</li>
+	<li>Javascript Workshop</li>
+    </ul>
+    <ul>
+    <li>Python Workshop</li>
+    <li>Shell Workshop</li>
+    </ul>
+    </section>
+  </body>
+</html>
+```
