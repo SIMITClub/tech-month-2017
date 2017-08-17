@@ -181,3 +181,40 @@
   </body>
 </html>
 ```
+
+10)
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	<h1>Tech Month 2017</h1>
+    <section>
+    <p>Tech Month 2017 is presented by SIM IT Club. </p>
+    </section>
+    <section>
+      <h1>Events</h1>
+      <h5>Web Development Series</h5>
+      <img src="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" alt="web-development-series image">
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ol>
+       <h5>App Development Series</h5>
+      <img src="https://pbs.twimg.com/profile_images/606585229034135553/2NqZJYQI_400x400.png" alt="app-development-series image">
+      <ol>
+        <li>JAVA</li>
+        <li>Android</li>
+      </ol>
+       <h5>Stand Alone Series</h5>
+      <img src="https://ps.twimg.com/profile_images/606585229034135553/2NqZJYQI_400x400.png" alt="stand-alone-series image">
+      <ol>
+        <li>Shell</li>
+        <li>Python</li>
+      </ol>
+    </section>
+  </body>
+</html>
+```
