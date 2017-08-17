@@ -299,3 +299,45 @@
   </body>
 </html>
 ```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	<h1>Tech Month 2017</h1>
+    <section>
+    <p>Tech Month 2017 is presented by SIM IT Club. </p>
+    </section>
+    <section  >
+      <h1>Events</h1>
+      <article style="height: 1000px; color: red; background-color: black;">
+      <h5>Web Development Series</h5>
+      <img src="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" alt="web-development-series image" height="100px" width="200px">
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ol>
+      </article>
+       <article style="height: 1000px; width: 100px; color: yellow; background-color: orange;">
+       <h5>App Development Series</h5>
+      <img src="https://pbs.twimg.com/profile_images/606585229034135553/2NqZJYQI_400x400.png" alt="app-development-series image" height="200px" width="100px">
+      <ol>
+        <li>JAVA</li>
+        <li>Android</li>
+      </ol>
+      </article>
+      <article style="height: 1000px; color: white; background-color: maroon;">
+       <h5>Stand Alone Series</h5>
+      <img src="https://azurecomcdn.azureedge.net/cvt-5daae9212bb433ad0510fbfbff44121ac7c759adc284d7a43d60dbbf2358a07a/images/page/services/functions/01-develop.png" alt="stand-alone-series image" height="100px" width="100px">
+      <ol>
+        <li>Shell</li>
+        <li>Python</li>
+      </ol>
+      </article>
+    </section>
+  </body>
+</html>
+```
