@@ -384,3 +384,47 @@
   </body>
 </html>
 ```
+
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	
+  	<h1>Tech Month 2017</h1>
+    <section>
+    <p>Tech Month 2017 is presented by SIM IT Club. </p>
+    </section>
+    <section>
+      <h1>Events</h1>
+      <article style="height: 1000px; color: #552C92; background-color: #00DFB6;">
+      <h5>Web Development Series</h5>
+      <img src="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" alt="web-development-series image" height="100px" width="200px">
+      <ol>
+        <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+        <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+        <li><a href="https://www.w3schools.com/js/default.asp">Javascript</a></li>
+      </ol>
+      </article>
+       <article style="height: 1000px; color: #0000000; background-color: #FFD377;">
+       <h5>App Development Series</h5>
+      <img src="https://pbs.twimg.com/profile_images/606585229034135553/2NqZJYQI_400x400.png" alt="app-development-series image" height="200px" width="100px">
+      <ol>
+        <li><a href="https://www.java.com/en/download/faq/develop.xml">Java</a></li>
+        <li><a href="https://developer.android.com/index.html">Android</a></li>
+      </ol>
+      </article>
+      <article style="height: 1000px; color: #771417; background-color: #AF9D3D;">
+       <h5>Stand Alone Series</h5>
+      <img src="https://azurecomcdn.azureedge.net/cvt-5daae9212bb433ad0510fbfbff44121ac7c759adc284d7a43d60dbbf2358a07a/images/page/services/functions/01-develop.png" alt="stand-alone-series image" height="100px" width="100px">
+      <ol>
+        <li><a href="https://en.wikipedia.org/wiki/Shell_script">Shell</a></li>
+        <li><a href="https://www.python.org/">Python</a></li>
+      </ol>
+      </article>
+    </section>
+  </body>
+</html>
+```
