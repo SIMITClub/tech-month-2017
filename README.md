@@ -437,7 +437,6 @@
   <head>
   </head>
   <body>
-  	
   	<h1>Tech Month 2017</h1>
     <section>
     <p>Tech Month 2017 is presented by SIM IT Club. </p>
