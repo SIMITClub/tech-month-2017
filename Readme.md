@@ -1,3 +1,7 @@
+# Tech Month 2017 <sub>By SIM IT Club</sub>
+
+## Schedule
+
 ### Week 1 (26, 28 Sep)
 -Web Dev
 (HTML, CSS, JavaScript)
