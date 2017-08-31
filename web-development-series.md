@@ -526,3 +526,76 @@
   </body>
 </html>
 ```
+
+# FINAL
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tech Month 2017</title>
+    <style>
+        article{
+            height: 100vh;
+        }
+
+        footer{
+            position: fixed;
+            color: white;
+            bottom: 0; 
+            background-color: gray; width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="position: fixed; top: 0; padding-left: 30%;">
+        <a href="#">Home</a> |
+        <a href="#c1">Web Development Series</a> |
+        <a href="#c2">App Development Series</a> |
+        <a href="#c3">Stand Alone Series</a>
+    </nav>
+
+    <section style="text-align: center; margin-top: 50px;">
+        <h1>Tech Month 2017</h1>
+        <p>Tech Month 2017 is presented by SIM IT Club. </p>
+    </section>
+
+    <section>
+        <h1 style="text-align: center; margin-top: 50px;">Events</h1>
+        <article id="c1" style="color: #552C92;">
+            <h3>Web Development Series</h3>
+            <img src="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" alt="web-development-series image">
+            <ol>
+                <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">Javascript</a></li>
+            </ol>
+        </article>
+
+        <article id="c2" style="color: #00DFB6;">
+            <h3>App Development Series</h3>
+            <img src="https://pbs.twimg.com/profile_images/606585229034135553/2NqZJYQI_400x400.png" alt="app-development-series image">
+            <ol>
+                <li><a href="https://www.java.com/en/download/faq/develop.xml">Java</a></li>
+                <li><a href="https://developer.android.com/index.html">Android</a></li>
+            </ol>
+        </article>
+
+        <article id="c3" style="color: #771417;">
+            <h3>Stand Alone Series</h3>
+            <img src="https://azurecomcdn.azureedge.net/cvt-5daae9212bb433ad0510fbfbff44121ac7c759adc284d7a43d60dbbf2358a07a/images/page/services/functions/01-develop.png"
+                alt="stand-alone-series image">
+            <ol>
+                <li><a href="https://en.wikipedia.org/wiki/Shell_script">Shell</a></li>
+                <li><a href="https://www.python.org/">Python</a></li>
+            </ol>
+        </article>
+    </section>
+
+    <footer>Information Technology Club 2017<footer>
+</body>
+
+</html>
+```
