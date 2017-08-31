@@ -543,6 +543,14 @@
             height: 100vh;
         }
 
+        h1::first-letter{
+            color: red;
+        }
+
+        li:first-child{
+            color: yellowgreen;
+        }
+
         footer{
             position: fixed;
             color: white;
@@ -561,7 +569,7 @@
     </nav>
 
     <section style="text-align: center; margin-top: 50px;">
-        <h1>Tech Month 2017</h1>
+        <h1>Tech Month <code>2017</code></h1>
         <p>Tech Month 2017 is presented by SIM IT Club. </p>
     </section>
 
