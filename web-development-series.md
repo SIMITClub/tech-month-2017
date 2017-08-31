@@ -536,6 +536,9 @@
 <head>
     <title>Tech Month 2017</title>
     <style>
+        body{
+            margin: 0 !important;
+        }
         article{
             height: 100vh;
         }
