@@ -1,1 +1,13 @@
+# Tech Month 2017 presented by SIM IT Club
+
+##Python 
+
+Part 1 - Data Preprocessing
+
+# Importing the libraries
+import numpy as np
+np.set_printoptions(threshold=np.inf)
+import matplotlib.pyplot as plt
+import pandas as pd
+
 
