@@ -610,3 +610,18 @@
 
 </html>
 ```
+
+## Javascript
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	<h1 id="title">Tech Month <span id="title-year">2017</span></h1>
+    <script>
+    	document.getElementById('title-year').innerHTML = "2018";
+    </script>
+  </body>
+</html>
+```
