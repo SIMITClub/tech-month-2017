@@ -625,3 +625,19 @@
   </body>
 </html>
 ```
+
+```html<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  	<h1 id="title">Tech Month <span id="title-year">2017</span></h1>
+    <script>
+    	var today = new Date();
+		var year = today.getFullYear();
+    	document.getElementById('title-year').innerHTML = year;
+    </script>
+  </body>
+</html>
+```
+Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear).
