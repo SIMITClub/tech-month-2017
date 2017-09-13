@@ -1,4 +1,4 @@
-# Tech Month 2017 presented by SIM IT Club
+# Tech Month 2017 <sub>presented by SIM IT Club</sub>
 
 ## HTML Basics
 
