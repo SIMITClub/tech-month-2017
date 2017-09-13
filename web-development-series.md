@@ -658,3 +658,24 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
   </body>
 </html>
 ```
+
+```html
+<html>
+  <head>
+  </head>
+  <body style="background-color: green">
+  	<h1 id="title">Tech Month <span id="title-year">2017</span></h1>
+    <script>
+    	var today = new Date();
+		var year = today.getFullYear();
+    	document.getElementById('title-year').innerHTML = year;
+        document.getElementById('title').style.backgroundColor = "blue";
+        document.getElementById('title').style.color = "white";
+        document.getElementById('title').style.fontSize = "50px";
+        document.getElementById('title').style.borderRadius = "10px";
+        document.getElementById('title').style.border = "20px solid #black";
+        document.getElementById('title-year').style.color = "yellow";
+    </script>
+  </body>
+</html>
+```
