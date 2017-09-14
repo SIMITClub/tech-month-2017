@@ -679,3 +679,56 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
   </body>
 </html>
 ```
+
+```html
+<html>
+  <head>
+  <style>
+  #container {
+    width: 500px;
+    height: 380px;
+    position: relative;
+    background: yellow;
+}
+#animate {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+}
+  </style>
+  </head>
+  <body >
+  	<div id="container" style="background-color: green">
+  		<div id="animate">
+        <h1 id="title">Tech Month <span id="title-year">2016</span></h1>
+        </div>
+    </div>
+
+    <script>
+    	var today = new Date();
+		var year = today.getFullYear();
+    	document.getElementById('title-year').innerHTML = year;
+        document.getElementById('title-year').style.color = "yellow";
+        
+        document.getElementById('title').style.backgroundColor = "blue";
+        document.getElementById('title').style.color = "white";
+        document.getElementById('title').style.fontSize = "15px";
+        document.getElementById('title').style.borderRadius = "10px";
+        document.getElementById('title').style.border = "20px solid #black";
+        
+        var elem = document.getElementById("animate"); //get the element 
+        var pos = 0; //initial position, think it as a graph
+        var id = setInterval(frame, 1); //is a timer that runs every second
+        function frame() {
+          if (pos == 350) {
+            clearInterval(id); //this method stops the timer
+          } else {
+            pos++; 
+            elem.style.top = pos + 'px'; //
+            elem.style.left = pos + 'px';//adding top and left, it will move diaglonally 
+          }
+        }//this function will be called every milisecond
+    </script>
+  </body>
+</html>
+```
