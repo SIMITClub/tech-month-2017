@@ -701,6 +701,7 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
     width: 600px;
   }
   #animate{
+  position: absolute;
   	width: 100px;
   }
 ```
