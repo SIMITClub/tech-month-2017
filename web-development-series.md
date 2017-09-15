@@ -706,6 +706,21 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
   }
 ```
 
+```javascript
+ var elem = document.getElementById("animate"); //get the element 
+        var pos = 0; //initial position, think it as a graph
+        var id = setInterval(frame, 1); //is a timer that runs every second
+        function frame() {
+          if (pos == 350) {
+            clearInterval(id); //this method stops the timer
+          } else {
+            pos++; 
+            elem.style.top = pos + 'px'; //
+            elem.style.left = pos + 'px';//adding top and left, it will move diaglonally 
+          }
+        }//this function will be called every milisecond
+```
+
 ```html
 <html>
   <head>
