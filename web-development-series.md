@@ -725,47 +725,42 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 <html>
   <head>
   <style>
-  #container {
-    width: 500px;
-    height: 380px;
-    position: relative;
-    background: yellow;
-}
-#animate {
-    width: 150px;
-    height: 50px;
-    position: absolute;
-}
+  #container{
+  	background-color: white;
+    height: 600px;
+    width: 600px;
+  }
+  #animate{
+  	position: absolute;
+  	width: 130px;
+  }
   </style>
   </head>
-  <body >
-  	<div id="container" style="background-color: green">
-  		<div id="animate">
-        <h1 id="title">Tech Month <span id="title-year">2016</span></h1>
+  <body style="background-color: green">
+  	<div id="container">
+    	<div id="animate">
+        	<h1 id="title">Tech Month <span id="title-year">2017</span></h1>
         </div>
     </div>
-
     <script>
     	var today = new Date();
 		var year = today.getFullYear();
     	document.getElementById('title-year').innerHTML = year;
-        document.getElementById('title-year').style.color = "yellow";
-        
         document.getElementById('title').style.backgroundColor = "blue";
         document.getElementById('title').style.color = "white";
-        document.getElementById('title').style.fontSize = "15px";
+        document.getElementById('title').style.fontSize = "30px";
         document.getElementById('title').style.borderRadius = "10px";
-        document.getElementById('title').style.border = "20px solid #black";
+        document.getElementById('title-year').style.color = "yellow";
         
         var elem = document.getElementById("animate");
         var pos = 0;
         var id = setInterval(frame, 1);
         function frame() {
-          if (pos == 350) {
-            clearInterval(id); //this method stops the timer
+          if (pos == 480) {
+            clearInterval(id);
           } else {
             pos++; 
-            elem.style.top = pos + 'px'; 
+            elem.style.top = pos + 'px';
             elem.style.left = pos + 'px';
           }
         }
