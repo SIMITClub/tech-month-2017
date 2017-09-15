@@ -708,17 +708,17 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ```javascript
  var elem = document.getElementById("animate"); //get the element 
-        var pos = 0; //initial position, think it as a graph
-        var id = setInterval(frame, 1); //is a timer that runs every second
+        var pos = 0;
+        var id = setInterval(frame, 1);
         function frame() {
           if (pos == 350) {
-            clearInterval(id); //this method stops the timer
+            clearInterval(id);
           } else {
             pos++; 
-            elem.style.top = pos + 'px'; //
-            elem.style.left = pos + 'px';//adding top and left, it will move diaglonally 
+            elem.style.top = pos + 'px';
+            elem.style.left = pos + 'px';
           }
-        }//this function will be called every milisecond
+        }
 ```
 
 ```html
@@ -757,18 +757,18 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
         document.getElementById('title').style.borderRadius = "10px";
         document.getElementById('title').style.border = "20px solid #black";
         
-        var elem = document.getElementById("animate"); //get the element 
-        var pos = 0; //initial position, think it as a graph
-        var id = setInterval(frame, 1); //is a timer that runs every second
+        var elem = document.getElementById("animate");
+        var pos = 0;
+        var id = setInterval(frame, 1);
         function frame() {
           if (pos == 350) {
             clearInterval(id); //this method stops the timer
           } else {
             pos++; 
-            elem.style.top = pos + 'px'; //
-            elem.style.left = pos + 'px';//adding top and left, it will move diaglonally 
+            elem.style.top = pos + 'px'; 
+            elem.style.left = pos + 'px';
           }
-        }//this function will be called every milisecond
+        }
     </script>
   </body>
 </html>
