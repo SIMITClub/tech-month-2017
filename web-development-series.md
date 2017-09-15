@@ -694,6 +694,17 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
     </div>
 ```
 
+```css
+#container{
+  	background-color: white;
+    height: 500px;
+    width: 600px;
+  }
+  #animate{
+  	width: 100px;
+  }
+```
+
 ```html
 <html>
   <head>
