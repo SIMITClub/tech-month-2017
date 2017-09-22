@@ -768,3 +768,56 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
   </body>
 </html>
 ```
+
+
+```
+<html>
+  <head>
+  <style>
+  #container{
+  	background-color: white;
+    height: 600px;
+    width: 600px;
+  }
+  #animate-container{
+  	position: absolute;
+  	width: 130px;
+  }
+  </style>
+  </head>
+  <body style="background-color: green">
+  	<button onclick="MyMove()">Click me!</button>
+  	<div id="container">
+    	<div id="animate-container">
+        	<h1 id="title">Tech Month <span id="title-year">2017</span></h1>
+        </div>
+    </div>
+    <script>
+    	var today = new Date();
+		var year = today.getFullYear();
+    	document.getElementById('title-year').innerHTML = year;
+        document.getElementById('title').style.backgroundColor = "blue";
+        document.getElementById('title').style.color = "white";
+        document.getElementById('title').style.fontSize = "30px";
+        document.getElementById('title').style.borderRadius = "10px";
+        document.getElementById('title-year').style.color = "yellow";
+        function MyMove()
+        {
+        	var elem = document.getElementById("animate-container");
+            var pos = 0;
+            var id = setInterval(frame, 1);
+            function frame() {
+              if (pos == 480) {
+                clearInterval(id);
+              } else {
+                pos++; 
+                elem.style.top = pos + 'px';
+                elem.style.left = pos + 'px';
+              }
+            }
+        }
+        
+    </script>
+  </body>
+</html>
+```
