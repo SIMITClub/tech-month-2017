@@ -770,7 +770,7 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ```
 
 
-```
+```html
 <html>
   <head>
   <style>
