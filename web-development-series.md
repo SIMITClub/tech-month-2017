@@ -9,7 +9,8 @@
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> 
+	<title> Tech Month 2017 </title>
   </head>
   <body>
   </body>
