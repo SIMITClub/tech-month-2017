@@ -838,3 +838,76 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
 </body>
 </html>
 ```
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tech Month 2017</title>
+</head>
+<body>
+
+<p>Message goes here</p>
+<input id="word" type="text"/>
+<button onclick="validateInput()">Check</button>
+<script>
+function validateInput(){}
+</script>
+</body>
+</html>
+```
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tech Month 2017</title>
+</head>
+<body>
+
+<p>Message goes here</p>
+<input id="word" type="text"/>
+</body>
+</html>
+<script>
+function validateInput(){
+var word = document.getElementById('word').value;
+alert(word);}
+</script>
+</body>
+</html>
+
+```
+
+
+```html
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Tech Month 2017</title>
+</head>
+<body>
+
+<p id="message">Message goes here</p>
+<input id="word" type="text"/>
+<button onclick="validateInput()">text</button>
+
+<script>
+function validateInput(){
+var word = document.getElementById('word').value;
+
+if(word.length > 8){
+	document.getElementById('message').innerHTML = "It is above 8 characters";
+}
+else
+{
+document.getElementById('message').innerHTML = "It is less 8 characters";
+}
+}
+
+</script>
+</body>
+</html>
+
+```
