@@ -822,3 +822,19 @@ Read more on Date [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript
   </body>
 </html>
 ```
+
+### JavaScript Input Section
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tech Month 2017</title>
+</head>
+<body>
+
+<p>Message goes here</p>
+<input id="word" type="text"/>
+</body>
+</html>
+```
