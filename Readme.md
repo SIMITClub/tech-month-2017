@@ -11,4 +11,4 @@
 (Java, XML)
 
 ### Week 3 (10, 12 Oct)
--Shell Scripting, Python
+-Python
