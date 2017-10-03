@@ -1,10 +1,11 @@
 # Learn JavaScript 
 
 ## Topics
-- Console
+- Web Inspector
 - Comments
 - Data Types
 - Variables
+- Console
 - Data Structures
 - Functions
 - Callbacks
@@ -12,7 +13,7 @@
 - Integrating it with HTML & CSS
 
 
-### Console
+### Web Inspector
 All the latest browsers are eqipped with console such that you can execute JavaScript on the browser itself. Lets try to run some javascript on Chrome console.
 
 In order to open Console in Chrome
@@ -81,10 +82,12 @@ typeof is used to learn what type of value does `"2"` and `2` are.
 
 - Lets put `typeof "2"` in the console and you will notice, the output is string.
 
-Try different values and see the magic:
+Try different values and see the magic.
 
+#### String Concatition
+As you have already seen the mix of numbers and string. How about printing "High 5!"? As this string contains a number and string. Javascript allows us to mix the number with string with the below format.
 
-
+`High {4+1}!` And this will print "High 5!"
 
 ## Source
 - Wikipedia
