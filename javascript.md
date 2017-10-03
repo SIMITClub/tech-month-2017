@@ -89,6 +89,14 @@ As you have already seen the mix of numbers and string. How about printing "High
 
 `High {4+1}!` And this will print "High 5!"
 
+## Note: Download [IDE](https://github.com/SIMITClub/resources#recommended-ide) before starting with next session.
+- Create a file called `script.js` under a folder called `learn-javascript`
+- We will make changes to the folder `learn-javascript` throughout the read.
+
+## Variables
+- 
+
+
 ## Source
 - Wikipedia
 - W3School
